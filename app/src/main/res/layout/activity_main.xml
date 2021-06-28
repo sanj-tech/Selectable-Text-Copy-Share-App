@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4A0202"
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:text="Example of Selectable and Share Text"
+        android:textColor="@color/white"
+
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:padding="20dp"
+        android:textColorHighlight="#F57F17"
+        android:text="Hello Hi how are You."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:text="selcet and share your text"
+        android:textColor="@color/white"
+
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/etcopy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:hint="Enter Your Text to select,copy and share"
+        android:inputType="textMultiLine"
+        android:textColorHighlight="#F57F17"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        >
+
+    </EditText>
+
+</LinearLayout>
